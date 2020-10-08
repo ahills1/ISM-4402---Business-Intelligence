@@ -13,3 +13,5 @@ df = pd.read_csv(Location)
 # Random Sample of 500 Rows from Dataframe
 df.take(np.random.permutation(len(df))[:500])
 
+
+
